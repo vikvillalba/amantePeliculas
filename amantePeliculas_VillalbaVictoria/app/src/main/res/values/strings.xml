@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">amantePeliculas_VillalbaVictoria</string>
+    <string name = "movie_title">The End of Evangelion</string>
+    <string name = "rating">10/10</string>
+    <string name = "duration">1h 30min</string>
+    <string name = "op1">Género</string>
+    <string name = "op2">Acción</string>
+    <string name = "op3">Drama</string>
+    <string name = "op4">Fantasía</string>
+    <string name = "description">
+        The End of Evangelion (1997) es el final cinematográfico surrealista,
+        intenso y visceral de Neon Genesis Evangelion, que abarca los episodios 25 y 26.
+        Retrata el caótico Tercer Impacto final, donde Shinji Ikari termina rechazando la unificación
+        de la conciencia humana (la Instrumentalización).
+    </string>
+    <string name = "btnComprar">Comprar</string>
+    <string name = "btnRentar">Rentar</string>
+</resources>
