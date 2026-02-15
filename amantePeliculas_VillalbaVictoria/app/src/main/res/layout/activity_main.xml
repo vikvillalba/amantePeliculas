@@ -140,6 +140,7 @@
         android:layout_marginTop="252dp"
         android:layout_marginEnd="40dp"
         android:text="@string/op2"
+        android:textColor="@color/blue"
         app:layout_constraintEnd_toStartOf="@+id/tvOp3"
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toEndOf="@+id/tvGenero"
@@ -152,6 +153,7 @@
         android:layout_marginTop="252dp"
         android:layout_marginEnd="39dp"
         android:text="@string/op3"
+        android:textColor="@color/blue"
         app:layout_constraintEnd_toStartOf="@+id/tvOp4"
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toEndOf="@+id/tvOp2"
@@ -164,6 +166,7 @@
         android:layout_marginTop="252dp"
         android:layout_marginEnd="30dp"
         android:text="@string/op4"
+        android:textColor="@color/blue"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toEndOf="@+id/tvOp3"
@@ -180,5 +183,24 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/ivBackground" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="33dp"
+        android:layout_height="33dp"
+        android:layout_marginEnd="28dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:srcCompat="@drawable/favorite"
+        tools:layout_editor_absoluteY="654dp" />
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="36dp"
+        android:layout_height="34dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="28dp"
+        app:layout_constraintEnd_toStartOf="@+id/imageView"
+        app:layout_constraintTop_toBottomOf="@+id/tvDescrpicion"
+        app:srcCompat="@drawable/like" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
