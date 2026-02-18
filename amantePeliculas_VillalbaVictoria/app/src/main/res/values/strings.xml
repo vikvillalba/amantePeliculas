@@ -15,4 +15,8 @@
     </string>
     <string name = "btnComprar">Comprar</string>
     <string name = "btnRentar">Rentar</string>
+    <string name="titleLogin">Iniciar Sesión</string>
+    <string name="correo">Correo</string>
+    <string name="contrasena">Contraseña</string>
+    <string name="btnLogin">Acceder</string>
 </resources>

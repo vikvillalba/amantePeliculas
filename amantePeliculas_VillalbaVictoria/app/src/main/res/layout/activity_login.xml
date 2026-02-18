@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:paddingLeft="26dp"
+    android:paddingRight="26dp"
+    android:id="@+id/login">
+
+    <ImageView
+        android:id="@+id/ivIcono"
+        android:layout_width="237dp"
+        android:layout_height="238dp"
+        android:layout_marginBottom="20dp"
+        app:srcCompat="@drawable/icone" />
+
+    <TextView
+        android:id="@+id/tvTitulo"
+        style="@style/titles"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/titleLogin"
+        android:textSize="30sp"
+        android:layout_marginTop="10sp"
+        android:layout_marginBottom="20sp"
+        android:textAlignment="center"
+        />
+
+    <TextView
+        android:id="@+id/tvCorreo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/correo"
+        android:textSize="20sp"/>
+
+    <EditText
+        android:id="@+id/txtCorreo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:id="@+id/tvContrasena"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/contrasena"
+        android:textSize="20sp"/>
+
+    <EditText
+        android:id="@+id/txtContrasena"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textPassword"/>
+
+    <Button
+        android:id="@+id/btn_acceder"
+        android:layout_width="160dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="end"
+        android:layout_marginTop="30sp"
+        android:layout_marginEnd="100sp"
+        android:text="@string/btnLogin" />
+
+
+</LinearLayout>

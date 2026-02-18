@@ -2,5 +2,8 @@
 <resources>
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
-    <color name="blue">#28389D</color>
+    <color name="blue">#293678</color>
+    <color name="babyLilac">#D8CCF2</color>
+    <color name="violet">#3E3152</color>
+    <color name="Darkviolet">#7A688E</color>
 </resources>
